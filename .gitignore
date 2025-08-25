@@ -1,4 +1,7 @@
 *.vsidx
+
+.vs/
+
 # Build results
 bin/
 obj/

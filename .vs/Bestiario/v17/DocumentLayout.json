@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Samuc\\SisPro\\estagio-treinamento\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C6A09357-7DE7-431B-AB9F-576C4449C30F}|Domain\\Domain.csproj|c:\\users\\samuc\\sispro\\estagio-treinamento\\domain\\bestiario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6A09357-7DE7-431B-AB9F-576C4449C30F}|Domain\\Domain.csproj|solutionrelative:domain\\bestiario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{001928F8-E0BB-4A4E-93D2-A162806F38E1}|Repository\\Repository.csproj|c:\\users\\samuc\\sispro\\estagio-treinamento\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{001928F8-E0BB-4A4E-93D2-A162806F38E1}|Repository\\Repository.csproj|solutionrelative:repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{001928F8-E0BB-4A4E-93D2-A162806F38E1}|Repository\\Repository.csproj|c:\\users\\samuc\\sispro\\estagio-treinamento\\repository\\inmemoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{001928F8-E0BB-4A4E-93D2-A162806F38E1}|Repository\\Repository.csproj|solutionrelative:repository\\inmemoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{001928F8-E0BB-4A4E-93D2-A162806F38E1}|Repository\\Repository.csproj|c:\\users\\samuc\\sispro\\estagio-treinamento\\repository\\exceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{001928F8-E0BB-4A4E-93D2-A162806F38E1}|Repository\\Repository.csproj|solutionrelative:repository\\exceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +38,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "Exceptions.cs",
+              "DocumentMoniker": "C:\\Users\\Samuc\\SisPro\\estagio-treinamento\\Repository\\Exceptions.cs",
+              "RelativeDocumentMoniker": "Repository\\Exceptions.cs",
+              "ToolTip": "C:\\Users\\Samuc\\SisPro\\estagio-treinamento\\Repository\\Exceptions.cs",
+              "RelativeToolTip": "Repository\\Exceptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T22:47:47.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Bestiario.cs",
+              "DocumentMoniker": "C:\\Users\\Samuc\\SisPro\\estagio-treinamento\\Domain\\Bestiario.cs",
+              "RelativeDocumentMoniker": "Domain\\Bestiario.cs",
+              "ToolTip": "C:\\Users\\Samuc\\SisPro\\estagio-treinamento\\Domain\\Bestiario.cs",
+              "RelativeToolTip": "Domain\\Bestiario.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAqwGQAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T22:39:16.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "InMemoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\Samuc\\SisPro\\estagio-treinamento\\Repository\\InMemoryRepository.cs",
               "RelativeDocumentMoniker": "Repository\\InMemoryRepository.cs",
@@ -43,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\Samuc\\SisPro\\estagio-treinamento\\Repository\\IRepository.cs",
               "RelativeDocumentMoniker": "Repository\\IRepository.cs",
@@ -56,13 +90,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\Samuc\\SisPro\\estagio-treinamento\\Repository\\Repository.cs",
               "RelativeDocumentMoniker": "Repository\\Repository.cs",
               "ToolTip": "C:\\Users\\Samuc\\SisPro\\estagio-treinamento\\Repository\\Repository.cs",
               "RelativeToolTip": "Repository\\Repository.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAA9wDEAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-24T22:22:09.998Z",
               "EditorCaption": ""

@@ -18,13 +18,13 @@ namespace Domain
         public DateTime DataRegistro { get; private set; }
         public Tipo Tipo { get; private set; }
 
-        public BestiarioRecord(string id, string name, String descricao, DateTime dataRegistro,
+        public BestiarioRecord(string id, string name, DateTime dataRegistro, string descricao = "",
             int hp = 1, int nivel = 1, NivelPerigo nivelPerigo = NivelPerigo.NENHUM,
             Raridade raridade = Raridade.COMUM, int dano = 1, int defesa = 1, Tipo tipo = Tipo.HUMANO)
         {
             Id = id;
             Name = name ?? throw new ArgumentNullException(nameof(name));
-            Descricao = descricao ?? throw new ArgumentNullException(nameof(descricao));
+            Descricao = descricao;
             Hp = hp;
             Nivel = nivel;
             NivelPerigo = Enum.IsDefined(
@@ -46,8 +46,8 @@ namespace Domain
             return new BestiarioRecord(
                 id ?? this.Id,
                 name ?? this.Name,
-                descricao ?? this.Descricao,
                 dataRegistro ?? this.DataRegistro,
+                descricao ?? this.Descricao,
                 hp ?? this.Hp,
                 nivel ?? this.Nivel,
                 nivelPerigo ?? this.NivelPerigo,

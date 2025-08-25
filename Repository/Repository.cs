@@ -8,14 +8,14 @@ using Domain;
 namespace Repository
 {
     // Implementação genérica. Todas as implementações concretas vão herdar dela
-    public class Repository<T> : IRepository<T> where T : class, IEntity, IEnumerable<T>
+    public class Repository<T> : IRepository<T> where T : class, IEntity
     {
 
         private readonly List<T> _repository = new List<T>();
-        private readonly Func<T, string, T> _factoryT;
+        private readonly Func<T, object, T> _factoryT;
 
         // Delegate Func<> age como factory para criar cópias de T
-        public Repository(Func<T, string, T> factory) => _factoryT = factory;
+        public Repository(Func<T, object, T> factory) => _factoryT = factory;
 
         T IRepository<T>.Create(T entity)
         {
@@ -32,38 +32,39 @@ namespace Repository
 
         T IRepository<T>.Update(T entity)
         {
-            T toUpdate = _repository.Find(e => e.Id.Equals(entity.Id));
-            if(toUpdate == null)
-            {
-                _repository[_repository.IndexOf(toUpdate)] = entity;
-                Console.WriteLine($"Entidade {entity} atualizada com sucesso!");
-                return entity;
-            }
-            throw new EntityNotFoundException($"Entidade com ID {entity.Id} não foi encontrada.");
+            T toUpdate = _repository.Find(e => e.Id.Equals(entity.Id))
+                ?? throw new EntityNotFoundException($"Entidade com ID {entity.Id} não encontrada.");
+
+            _repository[_repository.IndexOf(toUpdate)] = entity;
+            Console.WriteLine($"Entidade {entity} atualizada com sucesso!");
+            return entity;
+            
         }
 
         void IRepository<T>.Delete(T entity)
         {
-            T toDelete = _repository.Find(e => e.Id.Equals(entity.Id));
-            if(toDelete == null)
-            {
-                _repository.Remove(entity);
-            }
+            T toDelete = _repository.Find(e => e.Equals(entity))
+                ?? throw new EntityNotFoundException($"Entidade com ID {entity.Id} não encontrada.");
+            _repository.Remove(toDelete);
         }
 
-        T IRepository<T>.DeleteById(long id)
+        T IRepository<T>.DeleteById(string id)
         {
-            throw new NotImplementedException();
+            T toDelete = _repository.Find(e => e.Id.Equals(id))
+                ?? throw new EntityNotFoundException($"Entidade com Id {id} não encontrada.");
+            _repository.Remove(toDelete);
+            return toDelete;
         }
 
         IEnumerable<T> IRepository<T>.GetAll()
         {
-            throw new NotImplementedException();
+            return _repository;
         }
 
-        T IRepository<T>.GetById(long id)
+        T IRepository<T>.GetById(string id)
         {
-            throw new NotImplementedException();
+            return _repository.Find(e => e.Id.Equals(id)) ?? 
+                throw new EntityNotFoundException($"Entidade com ID {id} não encontrada.");
         }
     }
 }

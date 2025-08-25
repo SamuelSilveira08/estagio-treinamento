@@ -2,13 +2,13 @@
 
 namespace Repository
 {
-    public interface IRepository<T> where T : class, IEntity, IEnumerable<T>
+    public interface IRepository<T> where T : class, IEntity
     {
         T Create(T entity);
         T Update(T entity);
         void Delete(T entity);
-        T DeleteById(long id);
+        T DeleteById(string id);
         IEnumerable<T> GetAll();
-        T GetById(long id);
+        T GetById(string id);
     }
 }

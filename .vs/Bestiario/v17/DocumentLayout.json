@@ -1,26 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Samuc\\SisPro\\estagio-treinamento\\",
+  "WorkspaceRootPath": "C:\\Users\\sjsantos\\Projetos\\EstagioTreinamento\\Bestiario\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6A09357-7DE7-431B-AB9F-576C4449C30F}|Domain\\Domain.csproj|c:\\users\\samuc\\sispro\\estagio-treinamento\\domain\\bestiario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6A09357-7DE7-431B-AB9F-576C4449C30F}|Domain\\Domain.csproj|solutionrelative:domain\\bestiario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{107C84AF-64F2-4855-9EEE-69F98E8247FB}|Controllers\\Controllers.csproj|c:\\users\\sjsantos\\projetos\\estagiotreinamento\\bestiario\\controllers\\controllers\\bestiariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{107C84AF-64F2-4855-9EEE-69F98E8247FB}|Controllers\\Controllers.csproj|solutionrelative:controllers\\controllers\\bestiariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{001928F8-E0BB-4A4E-93D2-A162806F38E1}|Repository\\Repository.csproj|c:\\users\\samuc\\sispro\\estagio-treinamento\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{827E8B1B-0A25-458B-A6FB-9346FF930898}|Service\\Service.csproj|c:\\users\\sjsantos\\projetos\\estagiotreinamento\\bestiario\\service\\bestiarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{827E8B1B-0A25-458B-A6FB-9346FF930898}|Service\\Service.csproj|solutionrelative:service\\bestiarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{107C84AF-64F2-4855-9EEE-69F98E8247FB}|Controllers\\Controllers.csproj|c:\\users\\sjsantos\\projetos\\estagiotreinamento\\bestiario\\controllers\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{107C84AF-64F2-4855-9EEE-69F98E8247FB}|Controllers\\Controllers.csproj|solutionrelative:controllers\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{001928F8-E0BB-4A4E-93D2-A162806F38E1}|Repository\\Repository.csproj|c:\\users\\sjsantos\\projetos\\estagiotreinamento\\bestiario\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{001928F8-E0BB-4A4E-93D2-A162806F38E1}|Repository\\Repository.csproj|solutionrelative:repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{001928F8-E0BB-4A4E-93D2-A162806F38E1}|Repository\\Repository.csproj|c:\\users\\samuc\\sispro\\estagio-treinamento\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{001928F8-E0BB-4A4E-93D2-A162806F38E1}|Repository\\Repository.csproj|c:\\users\\sjsantos\\projetos\\estagiotreinamento\\bestiario\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{001928F8-E0BB-4A4E-93D2-A162806F38E1}|Repository\\Repository.csproj|solutionrelative:repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{001928F8-E0BB-4A4E-93D2-A162806F38E1}|Repository\\Repository.csproj|c:\\users\\samuc\\sispro\\estagio-treinamento\\repository\\inmemoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{001928F8-E0BB-4A4E-93D2-A162806F38E1}|Repository\\Repository.csproj|solutionrelative:repository\\inmemoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6A09357-7DE7-431B-AB9F-576C4449C30F}|Domain\\Domain.csproj|C:\\Users\\sjsantos\\Projetos\\EstagioTreinamento\\Bestiario\\domain\\bestiario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6A09357-7DE7-431B-AB9F-576C4449C30F}|Domain\\Domain.csproj|solutionrelative:domain\\bestiario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{001928F8-E0BB-4A4E-93D2-A162806F38E1}|Repository\\Repository.csproj|c:\\users\\samuc\\sispro\\estagio-treinamento\\repository\\exceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{001928F8-E0BB-4A4E-93D2-A162806F38E1}|Repository\\Repository.csproj|solutionrelative:repository\\exceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6A09357-7DE7-431B-AB9F-576C4449C30F}|Domain\\Domain.csproj|c:\\users\\sjsantos\\projetos\\estagiotreinamento\\bestiario\\domain\\exceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6A09357-7DE7-431B-AB9F-576C4449C30F}|Domain\\Domain.csproj|solutionrelative:domain\\exceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6A09357-7DE7-431B-AB9F-576C4449C30F}|Domain\\Domain.csproj|C:\\Users\\sjsantos\\Projetos\\EstagioTreinamento\\Bestiario\\domain\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6A09357-7DE7-431B-AB9F-576C4449C30F}|Domain\\Domain.csproj|solutionrelative:domain\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6A09357-7DE7-431B-AB9F-576C4449C30F}|Domain\\Domain.csproj|c:\\users\\sjsantos\\projetos\\estagiotreinamento\\bestiario\\domain\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6A09357-7DE7-431B-AB9F-576C4449C30F}|Domain\\Domain.csproj|solutionrelative:domain\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{107C84AF-64F2-4855-9EEE-69F98E8247FB}|Controllers\\Controllers.csproj|c:\\users\\sjsantos\\projetos\\estagiotreinamento\\bestiario\\controllers\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{107C84AF-64F2-4855-9EEE-69F98E8247FB}|Controllers\\Controllers.csproj|solutionrelative:controllers\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{107C84AF-64F2-4855-9EEE-69F98E8247FB}|Controllers\\Controllers.csproj|c:\\users\\sjsantos\\projetos\\estagiotreinamento\\bestiario\\controllers\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{107C84AF-64F2-4855-9EEE-69F98E8247FB}|Controllers\\Controllers.csproj|solutionrelative:controllers\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,75 +54,153 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\sjsantos\\Projetos\\EstagioTreinamento\\Bestiario\\Controllers\\Global.asax.cs",
+              "RelativeDocumentMoniker": "Controllers\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\sjsantos\\Projetos\\EstagioTreinamento\\Bestiario\\Controllers\\Global.asax.cs",
+              "RelativeToolTip": "Controllers\\Global.asax.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T16:18:21.927Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Exceptions.cs",
-              "DocumentMoniker": "C:\\Users\\Samuc\\SisPro\\estagio-treinamento\\Repository\\Exceptions.cs",
-              "RelativeDocumentMoniker": "Repository\\Exceptions.cs",
-              "ToolTip": "C:\\Users\\Samuc\\SisPro\\estagio-treinamento\\Repository\\Exceptions.cs",
-              "RelativeToolTip": "Repository\\Exceptions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA2AAAAAAAAAA==",
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sjsantos\\Projetos\\EstagioTreinamento\\Bestiario\\Repository\\IRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IRepository.cs",
+              "ToolTip": "C:\\Users\\sjsantos\\Projetos\\EstagioTreinamento\\Bestiario\\Repository\\IRepository.cs",
+              "RelativeToolTip": "Repository\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-24T22:47:47.713Z",
+              "WhenOpened": "2025-08-25T14:41:42.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "C:\\Users\\sjsantos\\Projetos\\EstagioTreinamento\\Bestiario\\Controllers\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Controllers\\ValuesController.cs",
+              "ToolTip": "C:\\Users\\sjsantos\\Projetos\\EstagioTreinamento\\Bestiario\\Controllers\\Controllers\\ValuesController.cs",
+              "RelativeToolTip": "Controllers\\Controllers\\ValuesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T14:33:07.606Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Bestiario.cs",
-              "DocumentMoniker": "C:\\Users\\Samuc\\SisPro\\estagio-treinamento\\Domain\\Bestiario.cs",
-              "RelativeDocumentMoniker": "Domain\\Bestiario.cs",
-              "ToolTip": "C:\\Users\\Samuc\\SisPro\\estagio-treinamento\\Domain\\Bestiario.cs",
-              "RelativeToolTip": "Domain\\Bestiario.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAqwGQAAABRAAAAAAAAAA==",
+              "Title": "BestiarioController.cs",
+              "DocumentMoniker": "C:\\Users\\sjsantos\\Projetos\\EstagioTreinamento\\Bestiario\\Controllers\\Controllers\\BestiarioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Controllers\\BestiarioController.cs",
+              "ToolTip": "C:\\Users\\sjsantos\\Projetos\\EstagioTreinamento\\Bestiario\\Controllers\\Controllers\\BestiarioController.cs",
+              "RelativeToolTip": "Controllers\\Controllers\\BestiarioController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-24T22:39:16.663Z",
+              "WhenOpened": "2025-08-25T14:28:35.164Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "InMemoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Samuc\\SisPro\\estagio-treinamento\\Repository\\InMemoryRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\InMemoryRepository.cs",
-              "ToolTip": "C:\\Users\\Samuc\\SisPro\\estagio-treinamento\\Repository\\InMemoryRepository.cs",
-              "RelativeToolTip": "Repository\\InMemoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\sjsantos\\Projetos\\EstagioTreinamento\\Bestiario\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repository.cs",
+              "ToolTip": "C:\\Users\\sjsantos\\Projetos\\EstagioTreinamento\\Bestiario\\Repository\\Repository.cs",
+              "RelativeToolTip": "Repository\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-24T22:22:40.529Z",
+              "WhenOpened": "2025-08-25T12:42:15.434Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Samuc\\SisPro\\estagio-treinamento\\Repository\\IRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\IRepository.cs",
-              "ToolTip": "C:\\Users\\Samuc\\SisPro\\estagio-treinamento\\Repository\\IRepository.cs",
-              "RelativeToolTip": "Repository\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Bestiario.cs",
+              "DocumentMoniker": "C:\\Users\\sjsantos\\Projetos\\EstagioTreinamento\\Bestiario\\Domain\\Bestiario.cs",
+              "RelativeDocumentMoniker": "Domain\\Bestiario.cs",
+              "ToolTip": "C:\\Users\\sjsantos\\Projetos\\EstagioTreinamento\\Bestiario\\Domain\\Bestiario.cs",
+              "RelativeToolTip": "Domain\\Bestiario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-24T22:22:27.517Z",
+              "WhenOpened": "2025-08-22T14:08:15.922Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\Samuc\\SisPro\\estagio-treinamento\\Repository\\Repository.cs",
-              "RelativeDocumentMoniker": "Repository\\Repository.cs",
-              "ToolTip": "C:\\Users\\Samuc\\SisPro\\estagio-treinamento\\Repository\\Repository.cs",
-              "RelativeToolTip": "Repository\\Repository.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAA9wDEAAAArAAAAAAAAAA==",
+              "Title": "BestiarioService.cs",
+              "DocumentMoniker": "C:\\Users\\sjsantos\\Projetos\\EstagioTreinamento\\Bestiario\\Service\\BestiarioService.cs",
+              "RelativeDocumentMoniker": "Service\\BestiarioService.cs",
+              "ToolTip": "C:\\Users\\sjsantos\\Projetos\\EstagioTreinamento\\Bestiario\\Service\\BestiarioService.cs",
+              "RelativeToolTip": "Service\\BestiarioService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-24T22:22:09.998Z",
+              "WhenOpened": "2025-08-22T14:32:03.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "C:\\Users\\sjsantos\\Projetos\\EstagioTreinamento\\Bestiario\\Domain\\Enums.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums.cs",
+              "ToolTip": "C:\\Users\\sjsantos\\Projetos\\EstagioTreinamento\\Bestiario\\Domain\\Enums.cs",
+              "RelativeToolTip": "Domain\\Enums.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T14:15:17.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Exceptions.cs",
+              "DocumentMoniker": "C:\\Users\\sjsantos\\Projetos\\EstagioTreinamento\\Bestiario\\Domain\\Exceptions.cs",
+              "RelativeDocumentMoniker": "Domain\\Exceptions.cs",
+              "ToolTip": "C:\\Users\\sjsantos\\Projetos\\EstagioTreinamento\\Bestiario\\Domain\\Exceptions.cs",
+              "RelativeToolTip": "Domain\\Exceptions.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T13:07:58.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\sjsantos\\Projetos\\EstagioTreinamento\\Bestiario\\Controllers\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\sjsantos\\Projetos\\EstagioTreinamento\\Bestiario\\Controllers\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T14:28:41.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IEntity.cs",
+              "DocumentMoniker": "C:\\Users\\sjsantos\\Projetos\\EstagioTreinamento\\Bestiario\\Domain\\IEntity.cs",
+              "RelativeDocumentMoniker": "Domain\\IEntity.cs",
+              "ToolTip": "C:\\Users\\sjsantos\\Projetos\\EstagioTreinamento\\Bestiario\\Domain\\IEntity.cs",
+              "RelativeToolTip": "Domain\\IEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T14:18:55.125Z",
               "EditorCaption": ""
             }
           ]

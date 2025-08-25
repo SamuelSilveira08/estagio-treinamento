@@ -1,13 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using Utils;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Domain
 {
-    public class BestiarioRecord : IEquatable<BestiarioRecord>
+    public class BestiarioRecord : IEquatable<BestiarioRecord>, IEntity
     {
 
         public string Id { get; private set; }
@@ -67,10 +63,10 @@ namespace Domain
             return Equals(obj as BestiarioRecord);
         }
 
+        // Não compara Ids
         public bool Equals(BestiarioRecord other)
         {
             return !(other is null) &&
-                   Id == other.Id &&
                    Descricao == other.Descricao &&
                    Name == other.Name &&
                    Hp == other.Hp &&
@@ -83,10 +79,10 @@ namespace Domain
                    Tipo == other.Tipo;
         }
 
+        // Não usa Ids para o cálculo
         public override int GetHashCode()
         {
             int hashCode = -1605580273;
-            hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(Id);
             hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(Descricao);
             hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(Name);
             hashCode = hashCode * -1521134295 + Hp.GetHashCode();
@@ -112,7 +108,8 @@ namespace Domain
 
         public override string ToString()
         {
-            return $"{{Id: {this.Id}, " +
+            return $"BESTIÁRIO=" +
+                $"{{Id: {this.Id}, " +
                 $"Nome: {this.Name}, " +
                 $"Descricao: {this.Descricao}, " +
                 $"HP: {this.Hp}, " +
@@ -128,25 +125,6 @@ namespace Domain
 
     public class Bestiario
     {
-
-        private readonly List<BestiarioRecord> _repository;
-
-        public BestiarioRecord create(BestiarioRecord bestiario)
-        {
-            BestiarioRecord toSave = _repository.Find(i => i.Id == bestiario.Id);
-            if (toSave != null)
-            {
-                _repository[_repository.IndexOf(toSave)] = bestiario;
-                Console.WriteLine($"====== Bestiário de Index {toSave.Id} " +
-                    $"atualizado com sucesso. ======\nBestiário atualizado: \n{bestiario.ToString()}");
-                return bestiario;
-            }
-            else
-            {
-                BestiarioRecord copy = bestiario.With(id: new IdGenerator().Id);
-                _repository.Add(copy);
-                return copy;
-            }
-        }
+       
     }
 }

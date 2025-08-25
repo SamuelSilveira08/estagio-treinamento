@@ -1,1 +1,61 @@
 *.vsidx
+# Build results
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# Visual Studio files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vsp
+*.vspscc
+*.vssscc
+
+# Visual Studio Code
+.vscode/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Resharper
+_ReSharper*/
+*.ReSharper
+*.DotSettings.user
+
+# Rider
+.idea/
+
+# Web specific
+App_Data/
+*.Publish.xml
+*.log
+
+# IIS Express
+.IISExpress/
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# Others
+*.dbmdl
+*.bak
+*.backup
+*.swp
+*.DS_Store
+
+# Publish folder
+publish/
+
+# JS/CSS compilados
+*.min.js
+*.bundle.js
+wwwroot/dist/

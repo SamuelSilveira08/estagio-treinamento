@@ -6,17 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain
 {
-    /* 
-            A coluna TIPOID nesta situação será um enum com os tipos:
-"HUMANO",
-"MORTO-VIVO",
-"SELVAGEM",
-"GIGANTE",
-"ABERRAÇÃO",
-"INSETO",
-"CONSTRUTO"
 
-        */
     public enum NivelPerigo
     {
         NENHUM = 1,
